@@ -8,7 +8,7 @@ import { HiInformationCircle } from "react-icons/hi";
 
 const Header=()=>{
     return(
-        <div className="bg-gray-600 flex flex-col items-center p-6 select-none sm:flex-row justify-between">
+        <div className="bg-gray-700 flex flex-col items-center p-6 select-none sm:flex-row justify-between">
             <div className="text-gray-200 flex">
                 <HeaderIcon Icon={HiHome} title="home" />
                 <HeaderIcon Icon={HiUserCircle} title="account" />
